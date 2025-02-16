@@ -6,4 +6,12 @@ virtualenv my_env
 source my_env/bin/activate 
 
 # installing transformers and torch
-python3 -m pip install transformers torch
+python3 -m pip install transformers
+python3 -m pip install torch
+python3 -m pip install torchvision
+python3 -m pip install torchaudio
+
+
+# Use Flask for local web hosting
+python3 -m pip install flask
+python3 -m pip install flask_cors
